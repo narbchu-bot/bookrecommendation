@@ -5,8 +5,12 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
 
-    <title>Justread | หนังสือ</title>
-
+    <title>การพัฒนาตัวเองเริ่มต้นที่ “การพักผ่อน” ชวนอ่าน "เอาไว้พรุ่งนี้ค่อยคิดนะ วันนี้ขอนอนก่อนแล้วกัน"
+        แล้วหันมาโฟกัสกับปัจจุบัน</title>
+    <meta name="keywords"
+        content="เอาไว้พรุ่งนี้ค่อยคิดนะ วันนี้ขอนอนก่อนแล้วกัน,การพัฒนาตัวเอง,การพักผ่อน,โฟกัสกับปัจจุบัน ,">
+    <meta name="description"
+        content="ทำความรู้จักหนังสือ “เอาไว้พรุ่งนี้ค่อยคิดนะ วันนี้ขอนอนก่อนแล้วกัน” หนังสือที่ชวนให้รู้จักการพักผ่อน วางความกังวล โฟกัสกับปัจจุบัน และกลับมาใส่ใจกับชีวิตของตัวเอง">
     <!-- Bootstrap CSS -->
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet">
     <link rel="preconnect" href="https://fonts.googleapis.com">
@@ -28,37 +32,38 @@
     <header class="bg-green border-bottom">
         <div class="container">
 
- <nav class="navbar navbar-expand-lg navbar-light py-2">
+            <nav class="navbar navbar-expand-lg navbar-light py-2">
 
-    <!-- 1. โลโก้ (แยกส่วนและปิดแท็ก </a> ให้เรียบร้อย) -->
-    <a class="navbar-brand d-flex align-items-center fw-bold text-yellow" href="#">
-       <img src="images/happy.png" alt="catlogo"width="60" height="50" class="me-2"data-aos="zoom-in">
-        <span>JUSTREAD</span>
-        
-       
-    </a>
+                <!-- 1. โลโก้ (แยกส่วนและปิดแท็ก </a> ให้เรียบร้อย) -->
+                <a class="navbar-brand d-flex align-items-center fw-bold text-yellow" href="#">
+                    <img src="images/happy.png" alt="catlogo" width="60" height="50" class="me-2" data-aos="zoom-in">
+                    <span>JUSTREAD</span>
 
-    <!-- 2. ปุ่มสามขีด (แยกออกมาข้างนอก และใส่ ms-auto เพื่อดันชิดขวา) -->
-    <button class="navbar-toggler ms-auto" type="button" data-bs-toggle="collapse" data-bs-target="#mainMenu">
-        <span class="navbar-toggler-icon"></span>
-    </button>
 
-    <!-- 3. เมนูนำทาง -->
-    <div class="collapse navbar-collapse mitr-regular" id="mainMenu">
-        <ul class="navbar-nav ms-auto align-items-center">
-            <li class="nav-item">
-                <a class="nav-link px-3 text-yellow" href="#about">เกี่ยวกับหนังสือ</a>
-            </li>
-            <li class="nav-item">
-                <a class="nav-link px-3 text-yellow" href="#idea">ข้อคิดที่ได้จากหนังสือ</a>
-            </li>
-            <li class="nav-item">
-                <a class="nav-link px-3 text-yellow" href="#genre">หนังสือที่เกี่ยวข้อง</a>
-            </li>
-        </ul>
-    </div>
+                </a>
 
-</nav>
+                <!-- 2. ปุ่มสามขีด (แยกออกมาข้างนอก และใส่ ms-auto เพื่อดันชิดขวา) -->
+                <button class="navbar-toggler ms-auto" type="button" data-bs-toggle="collapse"
+                    data-bs-target="#mainMenu">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+
+                <!-- 3. เมนูนำทาง -->
+                <div class="collapse navbar-collapse mitr-regular" id="mainMenu">
+                    <ul class="navbar-nav ms-auto align-items-center">
+                        <li class="nav-item">
+                            <a class="nav-link px-3 text-yellow" href="#about">เกี่ยวกับหนังสือ</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link px-3 text-yellow" href="#idea">ข้อคิดที่ได้จากหนังสือ</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link px-3 text-yellow" href="#genre">หนังสือที่เกี่ยวข้อง</a>
+                        </li>
+                    </ul>
+                </div>
+
+            </nav>
 
         </div>
     </header>
@@ -67,91 +72,123 @@
     <!-- =========================
          Hero Section
     ========================== -->
-<section class="py-5 bg-hero">
-    <div class="container">
+    <section class="py-5 bg-hero">
+        <div class="container">
 
-        <!-- แถวที่ 1: Hero Section (หัวข้อซ้าย - หนังสือขวา) -->
-        <div class="row align-items-center justify-content-between g-5">
+            <!-- แถวที่ 1: Hero Section (หัวข้อซ้าย - หนังสือขวา) -->
+            <div class="row align-items-center justify-content-between g-5">
 
-            <!-- ฝั่งซ้าย: หัวข้อและคำโปรย -->
-            <div class="col-12 col-md-5 text-center text-md-start">
-                <span class="badge rounded-pill bg-white text-green mitr-regular fw-bold px-3 py-2 mb-3">
-                     แนะนำสำหรับคนที่หมดไฟ เหนื่อยล้าสะสมและหยุดคิดไม่ได้
-                </span>
-                
-                <h1 class="irish-grover-regular fw-bold text-green mb-3" style="font-size: 2.8rem; line-height: 1.2;">
-                    Status: 404<br>Energy Not Found
-                </h1>
+                <!-- ฝั่งซ้าย: หัวข้อและคำโปรย -->
+                <div class="col-12 col-md-6 text-center text-md-start">
 
-                <p class="fs-4 mitr-regular fw-bold text-green  mb-4">
-                    “เอาไว้พรุ่งนี้ค่อยคิดนะ วันนี้ขอนอนก่อนแล้วกัน”
+
+                    <h1 class=" fw-bold text-green mb-3 mitr-regular" style="font-size: 2.8rem; line-height: 1.2; ">
+                        “เอาไว้พรุ่งนี้ค่อยคิดนะ <br> วันนี้ขอนอนก่อนแล้วกัน”
+                        <span class="d-block mitr-regular  fs-5  mt-2 fw-normal ">
+                            การพัฒนาตัวเองผ่านการพักผ่อนและการโฟกัสกับปัจจุบัน
+                        </span>
+                    </h1>
+
+
+                    <!-- ปุ่ม Action  -->
+                    <div class="d-flex gap-2 justify-content-center justify-content-md-start ">
+                        <a href="https://www.naiin.com/product/detail/598373"
+                            class="btn bg-green text-yellow py-2 rounded-pill shadow-sm mitr-regular fw-bold text-center">
+                            ทดลองอ่าน
+                        </a>
+                    </div>
+                </div>
+
+                <!-- ฝั่งขวา: รูปเล่มหนังสือ -->
+                <div class="col-12 col-md-6 text-center d-flex justify-content-center align-items-center">
+                    <div class="book-frame" data-aos="flip-up">
+                        <img src="images/IMG_0614.JPG" alt="ภาพหนังสือ" class="book-img">
+                    </div>
+                </div>
+
+            </div>
+
+            <!-- แถวที่ 2: ข้อมูลเกี่ยวกับหนังสือ (id="about") ปรับเป็นการ์ดข้อมูล 4 ช่อง -->
+            <div class="mt-5 pt-4" id="about">
+                <h2 class="text-center mitr-regular text-green mb-4">
+                    เกี่ยวกับหนังสือ
+                </h2>
+
+                <div class="row g-3 justify-content-center text-center">
+                    <div class="col-6 col-md-3">
+                        <div class="p-3 bg-white rounded-3 shadow-sm h-100">
+                            <small class="text-muted d-block sarabun-regular"> ผู้แต่ง</small>
+                            <strong class="text-green fs-5 mitr-regular">พักยองจุน</strong>
+                        </div>
+                    </div>
+                    <div class="col-6 col-md-3">
+                        <div class="p-3 bg-white rounded-3 shadow-sm h-100">
+                            <small class="text-muted d-block sarabun-regular"> ผู้แปล</small>
+                            <strong class="text-green fs-5 mitr-regular">วิทิยา จันทร์พันธ์</strong>
+                        </div>
+                    </div>
+                    <div class="col-6 col-md-3">
+                        <div class="p-3 bg-white rounded-3 shadow-sm h-100">
+                            <small class="text-muted d-block sarabun-regular">สำนักพิมพ์</small>
+                            <strong class="text-green fs-5 mitr-regular">Springbooks</strong>
+                        </div>
+                    </div>
+                    <div class="col-6 col-md-3">
+                        <div class="p-3 bg-white rounded-3 shadow-sm h-100">
+                            <small class="text-muted d-block sarabun-regular"> จำนวนหน้า</small>
+                            <strong class="text-green fs-5 mitr-regular">228 หน้า</strong>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <!-- แถวที่ 3: Quote กล่องไฮไลต์คำคมด้านล่าง -->
+  <div class="row justify-content-center mt-5">
+    <div class="col-12 col-lg-11">
+        <div class="p-4 p-md-5 rounded-4 shadow-sm"
+             style="background-color: rgba(255, 255, 255, 0.6); border-left: 6px solid #2D336B;">
+            
+            <div class="fs-4 sarabun-regular text-green mb-0" 
+                 style="line-height: 1.8; text-align: justify; text-justify: inter-word; word-break: break-word;">
+                <p class="mb-3">
+                    "เอาไว้พรุ่งนี้ค่อยคิดนะ วันนี้ขอนอนก่อนแล้วกัน"
+                    เป็นหนังสือพัฒนาตัวเองที่ชวนให้ผู้อ่านรู้จักการหยุดพักจากความเหนื่อยล้าและการปล่อยวางความกังวลเรื่องราวต่าง ๆ
+                    ที่ต้องพบเจอในชีวิตประจำวัน ให้หันกลับมาใส่ใจกับปัจจุบันมากขึ้น
+                    เนื้อหาชวนให้ผู้อ่านเรียนรู้ที่จะปล่อยวางความคิดที่หนักอึ้งในใจ ให้คลายความกังวล
+                    และให้เวลาตัวเองได้พักผ่อนให้เต็มที่
                 </p>
-
-                <!-- ปุ่ม Action เพิ่มลูกเล่นให้ดูเป็นเว็บรีวิว -->
-                <div class="d-flex gap-2 justify-content-center justify-content-md-start">
-                    <a href="https://www.naiin.com/product/detail/598373" class="btn bg-green text-yellow py-2 rounded-pill shadow-sm mitr-regular fw-bold">
-                        ทดลองอ่าน
-                    </a>
-                </div>
-            </div>
-
-            <!-- ฝั่งขวา: รูปเล่มหนังสือ -->
-            <div class="col-12 col-md-7 text-center d-flex justify-content-center align-items-center">
-                <div class="book-frame" data-aos="flip-up">
-                    <img src="images/IMG_0614.JPG" alt="ภาพหนังสือ" class="book-img">
-                </div>
+                <p class="mb-0">
+                    หนังสือเล่มนี้ไม่จำเป็นต้องมีพื้นฐานด้านจิตวิทยาหรือการพัฒนาตัวเองมาก่อนก็สามารถอ่านได้
+                    เนื้อหาเข้าถึงง่ายและเชื่อมโยงกับชีวิตประจำวัน
+                    ทำให้ผู้อ่านสามารถนำข้อคิดจากหนังสือไปปรับใช้กับชีวิตของตัวเองได้
+                </p>
             </div>
 
         </div>
-
-        <!-- แถวที่ 2: ข้อมูลเกี่ยวกับหนังสือ (id="about") ปรับเป็นการ์ดข้อมูล 4 ช่อง -->
-        <div class="mt-5 pt-4" id="about">
-            <h2 class="text-center mitr-regular text-green mb-4">
-                เกี่ยวกับหนังสือ
-            </h2>
-
-            <div class="row g-3 justify-content-center text-center">
-                <div class="col-6 col-md-3">
-                    <div class="p-3 bg-white rounded-3 shadow-sm h-100">
-                        <small class="text-muted d-block sarabun-regular"> ผู้แต่ง</small>
-                        <strong class="text-green fs-5 mitr-regular">พักยองจุน</strong>
-                    </div>
-                </div>
-                <div class="col-6 col-md-3">
-                    <div class="p-3 bg-white rounded-3 shadow-sm h-100">
-                        <small class="text-muted d-block sarabun-regular"> ผู้แปล</small>
-                        <strong class="text-green fs-5 mitr-regular">วิทิยา จันทร์พันธ์</strong>
-                    </div>
-                </div>
-                <div class="col-6 col-md-3">
-                    <div class="p-3 bg-white rounded-3 shadow-sm h-100">
-                        <small class="text-muted d-block sarabun-regular">สำนักพิมพ์</small>
-                        <strong class="text-green fs-5 mitr-regular">Springbooks</strong>
-                    </div>
-                </div>
-                <div class="col-6 col-md-3">
-                    <div class="p-3 bg-white rounded-3 shadow-sm h-100">
-                        <small class="text-muted d-block sarabun-regular"> จำนวนหน้า</small>
-                        <strong class="text-green fs-5 mitr-regular">228 หน้า</strong>
-                    </div>
-                </div>
-            </div>
-        </div>
-
-        <!-- แถวที่ 3: Quote กล่องไฮไลต์คำคมด้านล่าง -->
-        <div class="row justify-content-center mt-5">
-            <div class="col-12 col-lg-11">
-                <div class="p-4 p-md-5 rounded-4 shadow-sm text-center" 
-                     style="background-color: rgba(255, 255, 255, 0.6); border-left: 6px solid #2D336B;">
-                    <p class="fs-4 thasadith-regular fw-bold text-green mb-0" style="line-height: 1.8;">
-                        “หวังเพียงว่าเมื่อถึงเวลาพักผ่อนแล้ว เราจะปล่อยวางความคิดอันหนักอึ้ง เก็บกวาดเรื่องราวต่าง ๆ ที่รกรุงรังภายในใจ เพื่อเพิ่มพื้นที่ว่างให้ตัวเราได้พักผ่อนอย่างแท้จริง เพราะเมื่อทั้งกายและใจได้พักอย่างเพียงพอแล้ว เราก็จะพร้อมก้าวเดินต่อไปได้เต็มที่”
-                    </p>
-                </div>
-            </div>
-        </div>
-
     </div>
-</section>
+</div>
+            
+            <div class="row justify-content-center mt-4">
+                <div class="col-12 col-md-11">
+                    <div class="p-4 rounded-4 shadow-sm bg-white text-start">
+                        <h3 class="fs-3 fw-bold text-green mitr-regular mb-3">
+                            หนังสือเล่มนี้เหมาะสำหรับใคร?
+                        </h3>
+                        <ul class="mb-0 text-green sarabun-regular lh-lg fs-4">
+                            <li><strong>คนที่กำลังหมดไฟและเหนื่อยล้าสะสม:</strong>
+                                ต้องการพื้นที่พักใจและเรียนรู้วิธีหยุดพักอย่างแท้จริง</li>
+                            <li><strong>คนที่มองหาหนังสือพัฒนาตนเองที่อ่านง่าย:</strong> เล่าเรื่องเป็นกันเอง
+                                เข้าถึงง่าย ไม่เครียด ไม่กดดัน</li>
+                            <li><strong>คนที่ต้องการมุมมองใหม่ในการใช้ชีวิต:</strong> ปล่อยวางความกังวล
+                                เรียนรู้ที่จะอยู่กับปัจจุบัน และสร้างสมดุลให้ชีวิต</li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+
 
     <!-- ข้อคิดที่ได้จากหนังสือ -->
     <section class="py-5 bg-green" id="idea">
@@ -161,139 +198,152 @@
                 ข้อคิดที่ได้จากหนังสือเล่มนี้
             </h2>
 
- <!-- 💻 1. ส่วนของ Desktop (แสดงผลเป็นแถวธรรมดา ไม่ใช้ Carousel) -->
-<div class="d-none d-md-block">
-    <div class="row g-4">
-        <!-- กล่องที่ 1 -->
-        <div class="col-md-6 col-lg-3">
-            <div class="bg-yellow p-4 rounded-3 h-100 text-center idea-box">
-                <div class="idea-image">
-                    <img src="images/resting.png" alt="การหยุดพัก">
+            <!-- 💻 1. ส่วนของ Desktop (แสดงผลเป็นแถวธรรมดา ไม่ใช้ Carousel) -->
+            <div class="d-none d-md-block">
+                <div class="row g-4">
+                    <!-- กล่องที่ 1 -->
+                    <div class="col-md-6 col-lg-3">
+                        <div class="bg-yellow p-4 rounded-3 h-100 text-center idea-box">
+                            <div class="idea-image">
+                                <img src="images/resting.png" alt="การหยุดพัก">
+                            </div>
+                            <h5 class="fw-bold mitr-regular text-green idea-title">1. การพักผ่อน</h5>
+                            <p class="text-start sarabun-regular text-green idea-text">
+                                เวลาที่เราต้องหยุดพัก มักเกิดขึ้นเมื่อเราใช้ชีวิตและพยายามมาอย่างเต็มที่แล้ว
+                                การพักผ่อนชั่วคราวช่วยชาร์จพลังให้เราพร้อมที่จะทุ่มเท และก้าวเดินต่อไปได้ไกลกว่าเดิม
+                            </p>
+                        </div>
+                    </div>
+
+                    <!-- กล่องที่ 2 -->
+                    <div class="col-md-6 col-lg-3">
+                        <div class="bg-yellow p-4 rounded-3 h-100 text-center idea-box">
+                            <div class="idea-image">
+                                <img src="images/focus.png" alt="โฟกัสกับปัจจุบัน">
+                            </div>
+                            <h5 class="fw-bold mitr-regular text-green idea-title">2. การโฟกัสกับปัจจุบัน</h5>
+                            <p class="text-start sarabun-regular text-green idea-text">
+                                แทนที่จะนั่งอึดอัด กังวลกับอดีตหรืออนาคตที่ยังมาไม่ถึง
+                                ให้หันมาสนุกและเพลิดเพลินกับปัจจุบันตรงหน้า เริ่มต้นทำสิ่งเล็ก ๆ ค่อยเป็นค่อยไปก็พอแล้ว
+                            </p>
+                        </div>
+                    </div>
+
+                    <!-- กล่องที่ 3 -->
+                    <div class="col-md-6 col-lg-3">
+                        <div class="bg-yellow p-4 rounded-3 h-100 text-center idea-box">
+                            <div class="idea-image">
+                                <img src="images/refresh.png" alt="รีเฟรชตัวเอง">
+                            </div>
+                            <h5 class="fw-bold mitr-regular text-green idea-title">3. การพัฒนาตัวเอง</h5>
+                            <p class="text-start sarabun-regular text-green idea-text">
+                                หากรู้สึกเหนื่อยล้าจนใจเฉา ลองพาตัวเองออกจากชีวิตประจำวันเดิม ๆ เช่น ออกไปท่องเที่ยว
+                                ลองไปในที่ที่ไม่เคยไปเพื่อให้ใจได้อิสระจากความจำเจ
+                            </p>
+                        </div>
+                    </div>
+
+                    <!-- กล่องที่ 4 -->
+                    <div class="col-md-6 col-lg-3">
+                        <div class="bg-yellow p-4 rounded-3 h-100 text-center idea-box">
+                            <div class="idea-image">
+                                <img src="images/simplelife.png" alt="ชีวิตธรรมดา">
+                            </div>
+                            <h5 class="fw-bold mitr-regular text-green idea-title">4.ความสุขในชีวิตประจำวัน
+                            </h5>
+                            <p class="text-start sarabun-regular text-green idea-text">
+                                โลกนี้ไม่มีคำตอบที่ถูกต้องเพียงข้อเดียว ไม่มีใครผิดที่เลือกเดินคนละเส้นทาง
+                                การมีความสุขกับสิ่งรอบตัวในวันธรรมดา ๆ ก็นับเป็นชีวิตที่วิเศษมากแล้ว
+                            </p>
+                        </div>
+                    </div>
                 </div>
-                <h5 class="fw-bold mitr-regular text-green idea-title">1. การหยุดพักไม่ใช่ความล้มเหลว</h5>
-                <p class="text-start sarabun-regular text-green idea-text">
-                    เวลาที่เราต้องหยุดพัก มักเกิดขึ้นเมื่อเราใช้ชีวิตและพยายามมาอย่างเต็มที่แล้ว การพักผ่อนชั่วคราวช่วยชาร์จพลังให้เราพร้อมที่จะทุ่มเท และก้าวเดินต่อไปได้ไกลกว่าเดิม
-                </p>
             </div>
-        </div>
 
-        <!-- กล่องที่ 2 -->
-        <div class="col-md-6 col-lg-3">
-            <div class="bg-yellow p-4 rounded-3 h-100 text-center idea-box">
-                <div class="idea-image">
-                    <img src="images/focus.png" alt="โฟกัสกับปัจจุบัน">
+            <!-- 📱 2. ส่วนของ Mobile (Carousel วิ่งวนลูปได้ต่อเนื่อง 4 สไลด์พอดี) -->
+            <div id="ideasCarouselMobile" class="carousel slide d-md-none" data-bs-ride="false">
+
+                <!-- จุดบอกสไลด์ 4 จุดตรงกับ 4 สไลด์ -->
+                <div class="carousel-indicators">
+                    <button type="button" data-bs-target="#ideasCarouselMobile" data-bs-slide-to="0"
+                        class="active"></button>
+                    <button type="button" data-bs-target="#ideasCarouselMobile" data-bs-slide-to="1"></button>
+                    <button type="button" data-bs-target="#ideasCarouselMobile" data-bs-slide-to="2"></button>
+                    <button type="button" data-bs-target="#ideasCarouselMobile" data-bs-slide-to="3"></button>
                 </div>
-                <h5 class="fw-bold mitr-regular text-green idea-title">2. โฟกัสกับปัจจุบัน</h5>
-                <p class="text-start sarabun-regular text-green idea-text">
-                    แทนที่จะนั่งอึดอัด กังวลกับอดีตหรืออนาคตที่ยังมาไม่ถึง ให้หันมาสนุกและเพลิดเพลินกับปัจจุบันตรงหน้า เริ่มต้นทำสิ่งเล็ก ๆ ค่อยเป็นค่อยไปก็พอแล้ว
-                </p>
-            </div>
-        </div>
 
-        <!-- กล่องที่ 3 -->
-        <div class="col-md-6 col-lg-3">
-            <div class="bg-yellow p-4 rounded-3 h-100 text-center idea-box">
-                <div class="idea-image">
-                    <img src="images/refresh.png" alt="รีเฟรชตัวเอง">
+                <div class="carousel-inner">
+                    <!-- สไลด์ที่ 1 -->
+                    <div class="carousel-item active">
+                        <div class="bg-yellow p-4 rounded-3 text-center idea-box">
+                            <div class="idea-image">
+                                <img src="images/resting.png" alt="การหยุดพัก">
+                            </div>
+                            <h5 class="fw-bold mitr-regular text-green idea-title">1. การหยุดพักไม่ใช่ความล้มเหลว</h5>
+                            <p class="text-start sarabun-regular text-green idea-text">
+                                เวลาที่เราต้องหยุดพัก มักเกิดขึ้นเมื่อเราใช้ชีวิตและพยายามมาอย่างเต็มที่แล้ว
+                                การพักผ่อนชั่วคราวช่วยชาร์จพลังให้เราพร้อมที่จะทุ่มเท และก้าวเดินต่อไปได้ไกลกว่าเดิม
+                            </p>
+                        </div>
+                    </div>
+
+                    <!-- สไลด์ที่ 2 -->
+                    <div class="carousel-item">
+                        <div class="bg-yellow p-4 rounded-3 text-center idea-box">
+                            <div class="idea-image">
+                                <img src="images/focus.png" alt="โฟกัสกับปัจจุบัน">
+                            </div>
+                            <h5 class="fw-bold mitr-regular text-green idea-title">2. โฟกัสกับปัจจุบัน</h5>
+                            <p class="text-start sarabun-regular text-green idea-text">
+                                แทนที่จะนั่งอึดอัด กังวลกับอดีตหรืออนาคตที่ยังมาไม่ถึง
+                                ให้หันมาสนุกและเพลิดเพลินกับปัจจุบันตรงหน้า เริ่มต้นทำสิ่งเล็ก ๆ ค่อยเป็นค่อยไปก็พอแล้ว
+                            </p>
+                        </div>
+                    </div>
+
+                    <!-- สไลด์ที่ 3 -->
+                    <div class="carousel-item">
+                        <div class="bg-yellow p-4 rounded-3 text-center idea-box">
+                            <div class="idea-image">
+                                <img src="images/refresh.png" alt="รีเฟรชตัวเอง">
+                            </div>
+                            <h5 class="fw-bold mitr-regular text-green idea-title">3. ลองทำอะไรใหม่ ๆ</h5>
+                            <p class="text-start sarabun-regular text-green idea-text">
+                                หากรู้สึกเหนื่อยล้าจนใจเฉา ลองพาตัวเองออกจากชีวิตประจำวันเดิม ๆ เช่น ออกไปท่องเที่ยว
+                                ลองไปในที่ที่ไม่เคยไปเพื่อให้ใจได้อิสระจากความจำเจ
+                            </p>
+                        </div>
+                    </div>
+
+                    <!-- สไลด์ที่ 4 -->
+                    <div class="carousel-item">
+                        <div class="bg-yellow p-4 rounded-3 text-center idea-box">
+                            <div class="idea-image">
+                                <img src="images/simplelife.png" alt="ชีวิตธรรมดา">
+                            </div>
+                            <h5 class="fw-bold mitr-regular text-green idea-title">4. ชีวิตธรรมดาคือสิ่งที่มีค่าที่สุด
+                            </h5>
+                            <p class="text-start sarabun-regular text-green idea-text">
+                                โลกนี้ไม่มีคำตอบที่ถูกต้องเพียงข้อเดียว ไม่มีใครผิดที่เลือกเดินคนละเส้นทาง
+                                การมีความสุขกับสิ่งรอบตัวในวันธรรมดา ๆ ก็นับเป็นชีวิตที่วิเศษมากแล้ว
+                            </p>
+                        </div>
+                    </div>
                 </div>
-                <h5 class="fw-bold mitr-regular text-green idea-title">3. ลองทำอะไรใหม่ ๆ</h5>
-                <p class="text-start sarabun-regular text-green idea-text">
-                    หากรู้สึกเหนื่อยล้าจนใจเฉา ลองพาตัวเองออกจากชีวิตประจำวันเดิม ๆ เช่น ออกไปท่องเที่ยว ลองไปในที่ที่ไม่เคยไปเพื่อให้ใจได้อิสระจากความจำเจ
-                </p>
+
+                <!-- ปุ่มเลื่อน Prev / Next -->
+                <button class="carousel-control-prev" type="button" data-bs-target="#ideasCarouselMobile"
+                    data-bs-slide="prev">
+                    <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                    <span class="visually-hidden">Previous</span>
+                </button>
+                <button class="carousel-control-next" type="button" data-bs-target="#ideasCarouselMobile"
+                    data-bs-slide="next">
+                    <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                    <span class="visually-hidden">Next</span>
+                </button>
+
             </div>
-        </div>
-
-        <!-- กล่องที่ 4 -->
-        <div class="col-md-6 col-lg-3">
-            <div class="bg-yellow p-4 rounded-3 h-100 text-center idea-box">
-                <div class="idea-image">
-                    <img src="images/simplelife.png" alt="ชีวิตธรรมดา">
-                </div>
-                <h5 class="fw-bold mitr-regular text-green idea-title">4. ชีวิตธรรมดาคือสิ่งที่มีค่าที่สุด</h5>
-                <p class="text-start sarabun-regular text-green idea-text">
-                    โลกนี้ไม่มีคำตอบที่ถูกต้องเพียงข้อเดียว ไม่มีใครผิดที่เลือกเดินคนละเส้นทาง การมีความสุขกับสิ่งรอบตัวในวันธรรมดา ๆ ก็นับเป็นชีวิตที่วิเศษมากแล้ว
-                </p>
-            </div>
-        </div>
-    </div>
-</div>
-
-<!-- 📱 2. ส่วนของ Mobile (Carousel วิ่งวนลูปได้ต่อเนื่อง 4 สไลด์พอดี) -->
-<div id="ideasCarouselMobile" class="carousel slide d-md-none" data-bs-ride="false">
-
-    <!-- จุดบอกสไลด์ 4 จุดตรงกับ 4 สไลด์ -->
-    <div class="carousel-indicators">
-        <button type="button" data-bs-target="#ideasCarouselMobile" data-bs-slide-to="0" class="active"></button>
-        <button type="button" data-bs-target="#ideasCarouselMobile" data-bs-slide-to="1"></button>
-        <button type="button" data-bs-target="#ideasCarouselMobile" data-bs-slide-to="2"></button>
-        <button type="button" data-bs-target="#ideasCarouselMobile" data-bs-slide-to="3"></button>
-    </div>
-
-    <div class="carousel-inner">
-        <!-- สไลด์ที่ 1 -->
-        <div class="carousel-item active">
-            <div class="bg-yellow p-4 rounded-3 text-center idea-box">
-                <div class="idea-image">
-                    <img src="images/resting.png" alt="การหยุดพัก">
-                </div>
-                <h5 class="fw-bold mitr-regular text-green idea-title">1. การหยุดพักไม่ใช่ความล้มเหลว</h5>
-                <p class="text-start sarabun-regular text-green idea-text">
-                    เวลาที่เราต้องหยุดพัก มักเกิดขึ้นเมื่อเราใช้ชีวิตและพยายามมาอย่างเต็มที่แล้ว การพักผ่อนชั่วคราวช่วยชาร์จพลังให้เราพร้อมที่จะทุ่มเท และก้าวเดินต่อไปได้ไกลกว่าเดิม
-                </p>
-            </div>
-        </div>
-
-        <!-- สไลด์ที่ 2 -->
-        <div class="carousel-item">
-            <div class="bg-yellow p-4 rounded-3 text-center idea-box">
-                <div class="idea-image">
-                    <img src="images/focus.png" alt="โฟกัสกับปัจจุบัน">
-                </div>
-                <h5 class="fw-bold mitr-regular text-green idea-title">2. โฟกัสกับปัจจุบัน</h5>
-                <p class="text-start sarabun-regular text-green idea-text">
-                    แทนที่จะนั่งอึดอัด กังวลกับอดีตหรืออนาคตที่ยังมาไม่ถึง ให้หันมาสนุกและเพลิดเพลินกับปัจจุบันตรงหน้า เริ่มต้นทำสิ่งเล็ก ๆ ค่อยเป็นค่อยไปก็พอแล้ว
-                </p>
-            </div>
-        </div>
-
-        <!-- สไลด์ที่ 3 -->
-        <div class="carousel-item">
-            <div class="bg-yellow p-4 rounded-3 text-center idea-box">
-                <div class="idea-image">
-                    <img src="images/refresh.png" alt="รีเฟรชตัวเอง">
-                </div>
-                <h5 class="fw-bold mitr-regular text-green idea-title">3. ลองทำอะไรใหม่ ๆ</h5>
-                <p class="text-start sarabun-regular text-green idea-text">
-                    หากรู้สึกเหนื่อยล้าจนใจเฉา ลองพาตัวเองออกจากชีวิตประจำวันเดิม ๆ เช่น ออกไปท่องเที่ยว ลองไปในที่ที่ไม่เคยไปเพื่อให้ใจได้อิสระจากความจำเจ
-                </p>
-            </div>
-        </div>
-
-        <!-- สไลด์ที่ 4 -->
-        <div class="carousel-item">
-            <div class="bg-yellow p-4 rounded-3 text-center idea-box">
-                <div class="idea-image">
-                    <img src="images/simplelife.png" alt="ชีวิตธรรมดา">
-                </div>
-                <h5 class="fw-bold mitr-regular text-green idea-title">4. ชีวิตธรรมดาคือสิ่งที่มีค่าที่สุด</h5>
-                <p class="text-start sarabun-regular text-green idea-text">
-                    โลกนี้ไม่มีคำตอบที่ถูกต้องเพียงข้อเดียว ไม่มีใครผิดที่เลือกเดินคนละเส้นทาง การมีความสุขกับสิ่งรอบตัวในวันธรรมดา ๆ ก็นับเป็นชีวิตที่วิเศษมากแล้ว
-                </p>
-            </div>
-        </div>
-    </div>
-
-    <!-- ปุ่มเลื่อน Prev / Next -->
-    <button class="carousel-control-prev" type="button" data-bs-target="#ideasCarouselMobile" data-bs-slide="prev">
-        <span class="carousel-control-prev-icon" aria-hidden="true"></span>
-        <span class="visually-hidden">Previous</span>
-    </button>
-    <button class="carousel-control-next" type="button" data-bs-target="#ideasCarouselMobile" data-bs-slide="next">
-        <span class="carousel-control-next-icon" aria-hidden="true"></span>
-        <span class="visually-hidden">Next</span>
-    </button>
-
-</div>
 
         </div>
     </section>
@@ -301,29 +351,31 @@
          Section 
          คุณค่าของหนังสือ
     ========================== -->
-<section class="py-5 bg-green">
-    <div class="container">
-        <div class="row justify-content-center text-yellow">
-            <div class="col-12 col-md-10 col-lg-10 text-center">
+    <section class="py-5 bg-green" aria-labelledby="book-summary-heading">
+        <div class="container">
+            <div class="row justify-content-center text-yellow">
+                <div class="col-12 col-md-10 col-lg-10 text-center">
 
-                <!-- ข้อความสรุปคุณค่าหลัก -->
-                <p class="lh-lg mitr-regular fs-4 mb-4 text-center" style="letter-spacing: 0.3px;">
-                    หลายครั้งที่เราเจอปัญหา เรารู้สึกว่าปัญหาเหล่านั้นเบาบางลงหลังจากตื่นนอน <br>
-                    ถ้าคุณกำลังอยู่ในช่วงที่รู้สึกว่าเหนื่อยกับทุกอย่าง
-                </p>
+                    <h2 id="book-summary-heading" class="visually-hidden">คุณค่าและข้อคิดสำคัญจากหนังสือ</h2>
 
-                <!-- ไฮไลต์ข้อคิดสำคัญด้วยการ์ดโปร่งแสง -->
-                <div class="p-4 rounded-4 shadow-sm" style="background: rgba(255, 255, 255, 0.08); border: 1px solid rgba(255, 255, 255, 0.15);">
-                    <p class="sarabun-regular fs-5 mb-0 text-white" style="line-height: 1.8;">
-                        “หนังสือเล่มนี้คือคู่มือที่บอกว่า <strong class="text-yellow">การพักผ่อนไม่ใช่การยอมแพ้</strong> และการเริ่มต้นใหม่ในวันถัดไปก็ยังเป็นเรื่องที่ทำได้เสมอ”
-                    </p>
+                    <div class="mitr-regular fs-3 fs-md-3 " style="letter-spacing: 0.3px; line-height: 1.6;">
+                        <p class="mb-3">
+                            หนังสือช่วยให้เราเห็นว่าการหยุดพักไม่ได้หมายถึงความล้มเหลว
+                            และเราไม่จำเป็นต้องจัดการทุกเรื่องให้เสร็จในทันที บางเรื่องสามารถปล่อยวางได้
+                            แล้วกลับมาจัดการเมื่อใจเราพร้อม
+                        </p>
+                        <p class="mb-0">
+                            ผู้อ่านจะได้มุมมองเกี่ยวกับการรู้จักหยุดพัก
+                            การปล่อยวางความกังวล การโฟกัสกับปัจจุบัน และการให้ความสำคัญกับเรื่องเล็ก ๆ ในชีวิตมากขึ้น
+                            รวมถึงได้ทบทวนว่าการพักผ่อนไม่ใช่ความล้มเหลว
+                            แต่เป็นส่วนหนึ่งของการดูแลตัวเองและการใช้ชีวิตอย่างสมดุล
+                        </p>
+                    </div>
+
                 </div>
-
             </div>
         </div>
-    </div>
-</section>
-
+    </section>
 
 
 
@@ -339,8 +391,8 @@
 
             </h2>
 
-            <p class="display-6 sarabun-regular text-yellow" data-aos="zoom-in-up">
-                "ชีวิตก็ไม่ต่างอะไรกับเวลา มีแต่เดินไปข้างหน้าตลอด"
+            <p class="display-6 thasadith-regular text-yellow" data-aos="zoom-in-up">
+                “การพักผ่อนไม่ใช่การยอมแพ้ และการเริ่มต้นใหม่ในวันพรุ่งนี้ ก็ยังเป็นเรื่องที่ทำได้เสมอ”
             </p>
 
         </div>
@@ -352,196 +404,215 @@
          Section 
          เรื่องที่คุณน่าจะสนใจ
     ========================== -->
-    
-<section class="py-5 bg-yellow" id="genre">
-    <div class="container">
 
-        <h2 class="text-center mitr-regular text-green mb-4">หนังสือที่เกี่ยวข้อง</h2>
+    <section class="py-5 bg-yellow" id="genre">
+        <div class="container">
 
-        <!-- =================  1. DESKTOP CAROUSEL (สไลด์ละ 4 เล่ม) ================= -->
-        <div id="bookCarouselDesktop" class="carousel slide d-none d-md-block" data-bs-ride="carousel" data-bs-interval="4000">
+            <h2 class="text-center mitr-regular text-green mb-4">หนังสือที่คุณน่าจะสนใจ</h2>
 
-            <!-- จุด Indicators (2 จุด สำหรับ 2 สไลด์) -->
-            <div class="carousel-indicators">
-                <button type="button" data-bs-target="#bookCarouselDesktop" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
-                <button type="button" data-bs-target="#bookCarouselDesktop" data-bs-slide-to="1" aria-label="Slide 2"></button>
-            </div>
+            <!-- =================  1. DESKTOP CAROUSEL (สไลด์ละ 4 เล่ม) ================= -->
+            <div id="bookCarouselDesktop" class="carousel slide d-none d-md-block" data-bs-ride="carousel"
+                data-bs-interval="4000">
 
-            <div class="carousel-inner pb-4">
-                <!-- Slide 1 (เล่ม 1-4) -->
-                <div class="carousel-item active">
-                    <div class="row g-4 justify-content-center">
-                        <div class="col-md-3">
-                            <img src="images/b8.jpg" class="img-fluid w-100 rounded-3 shadow-sm" alt="ภาพ b8">
+                <!-- จุด Indicators (2 จุด สำหรับ 2 สไลด์) -->
+                <div class="carousel-indicators">
+                    <button type="button" data-bs-target="#bookCarouselDesktop" data-bs-slide-to="0" class="active"
+                        aria-current="true" aria-label="Slide 1"></button>
+                    <button type="button" data-bs-target="#bookCarouselDesktop" data-bs-slide-to="1"
+                        aria-label="Slide 2"></button>
+                </div>
+
+                <div class="carousel-inner pb-4">
+                    <!-- Slide 1 (เล่ม 1-4) -->
+                    <div class="carousel-item active">
+                        <div class="row g-4 justify-content-center">
+                            <div class="col-md-3">
+                                <img src="images/b8.jpg" class="img-fluid w-100 rounded-3 shadow-sm" alt="ภาพ b8">
+                            </div>
+                            <div class="col-md-3">
+                                <img src="images/b7.jpg" class="img-fluid w-100 rounded-3 shadow-sm" alt="ภาพ b7">
+                            </div>
+                            <div class="col-md-3">
+                                <img src="images/b6.jpg" class="img-fluid w-100 rounded-3 shadow-sm" alt="ภาพ b6">
+                            </div>
+                            <div class="col-md-3">
+                                <img src="images/b5.webp" class="img-fluid w-100 rounded-3 shadow-sm" alt="ภาพ b5">
+                            </div>
                         </div>
-                        <div class="col-md-3">
-                            <img src="images/b7.jpg" class="img-fluid w-100 rounded-3 shadow-sm" alt="ภาพ b7">
-                        </div>
-                        <div class="col-md-3">
-                            <img src="images/b6.jpg" class="img-fluid w-100 rounded-3 shadow-sm" alt="ภาพ b6">
-                        </div>
-                        <div class="col-md-3">
-                            <img src="images/b5.webp" class="img-fluid w-100 rounded-3 shadow-sm" alt="ภาพ b5">
+                    </div>
+
+                    <!-- Slide 2 (เล่ม 5-8) -->
+                    <div class="carousel-item">
+                        <div class="row g-4 justify-content-center">
+                            <div class="col-md-3">
+                                <img src="images/b4.jpg" class="img-fluid w-100 rounded-3 shadow-sm" alt="ภาพ b4">
+                            </div>
+                            <div class="col-md-3">
+                                <img src="images/b3.webp" class="img-fluid w-100 rounded-3 shadow-sm" alt="ภาพ b3">
+                            </div>
+                            <div class="col-md-3">
+                                <img src="images/b2.webp" class="img-fluid w-100 rounded-3 shadow-sm" alt="ภาพ b2">
+                            </div>
+                            <div class="col-md-3">
+                                <img src="images/b1.webp" class="img-fluid w-100 rounded-3 shadow-sm" alt="ภาพ b1">
+                            </div>
                         </div>
                     </div>
                 </div>
 
-                <!-- Slide 2 (เล่ม 5-8) -->
-                <div class="carousel-item">
-                    <div class="row g-4 justify-content-center">
-                        <div class="col-md-3">
-                            <img src="images/b4.jpg" class="img-fluid w-100 rounded-3 shadow-sm" alt="ภาพ b4">
-                        </div>
-                        <div class="col-md-3">
-                            <img src="images/b3.webp" class="img-fluid w-100 rounded-3 shadow-sm" alt="ภาพ b3">
-                        </div>
-                        <div class="col-md-3">
-                            <img src="images/b2.webp" class="img-fluid w-100 rounded-3 shadow-sm" alt="ภาพ b2">
-                        </div>
-                        <div class="col-md-3">
-                            <img src="images/b1.webp" class="img-fluid w-100 rounded-3 shadow-sm" alt="ภาพ b1">
-                        </div>
+                <!-- ปุ่มเลื่อน Desktop -->
+                <button class="carousel-control-prev" type="button" data-bs-target="#bookCarouselDesktop"
+                    data-bs-slide="prev">
+                    <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                    <span class="visually-hidden">Previous</span>
+                </button>
+                <button class="carousel-control-next" type="button" data-bs-target="#bookCarouselDesktop"
+                    data-bs-slide="next">
+                    <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                    <span class="visually-hidden">Next</span>
+                </button>
+            </div>
+
+
+            <!-- =================  2. MOBILE CAROUSEL (สไลด์ละ 1 เล่ม) ================= -->
+            <div id="bookCarouselMobile" class="carousel slide d-md-none" data-bs-ride="carousel"
+                data-bs-interval="3500">
+
+                <!-- จุด Indicators (8 จุด สำหรับ 8 เล่ม) -->
+                <div class="carousel-indicators">
+                    <button type="button" data-bs-target="#bookCarouselMobile" data-bs-slide-to="0" class="active"
+                        aria-current="true"></button>
+                    <button type="button" data-bs-target="#bookCarouselMobile" data-bs-slide-to="1"></button>
+                    <button type="button" data-bs-target="#bookCarouselMobile" data-bs-slide-to="2"></button>
+                    <button type="button" data-bs-target="#bookCarouselMobile" data-bs-slide-to="3"></button>
+                    <button type="button" data-bs-target="#bookCarouselMobile" data-bs-slide-to="4"></button>
+                    <button type="button" data-bs-target="#bookCarouselMobile" data-bs-slide-to="5"></button>
+                    <button type="button" data-bs-target="#bookCarouselMobile" data-bs-slide-to="6"></button>
+                    <button type="button" data-bs-target="#bookCarouselMobile" data-bs-slide-to="7"></button>
+                </div>
+
+                <div class="carousel-inner pb-5">
+                    <!-- เล่มที่ 1 -->
+                    <div class="carousel-item active text-center px-4">
+                        <img src="images/b8.jpg" class="img-fluid rounded-3 shadow"
+                            style="max-height: 380px; width: auto;" alt="ภาพ b8">
+                    </div>
+                    <!-- เล่มที่ 2 -->
+                    <div class="carousel-item text-center px-4">
+                        <img src="images/b7.jpg" class="img-fluid rounded-3 shadow"
+                            style="max-height: 380px; width: auto;" alt="ภาพ b7">
+                    </div>
+                    <!-- เล่มที่ 3 -->
+                    <div class="carousel-item text-center px-4">
+                        <img src="images/b6.jpg" class="img-fluid rounded-3 shadow"
+                            style="max-height: 380px; width: auto;" alt="ภาพ b6">
+                    </div>
+                    <!-- เล่มที่ 4 -->
+                    <div class="carousel-item text-center px-4">
+                        <img src="images/b5.webp" class="img-fluid rounded-3 shadow"
+                            style="max-height: 380px; width: auto;" alt="ภาพ b5">
+                    </div>
+                    <!-- เล่มที่ 5 -->
+                    <div class="carousel-item text-center px-4">
+                        <img src="images/b4.jpg" class="img-fluid rounded-3 shadow"
+                            style="max-height: 380px; width: auto;" alt="ภาพ b4">
+                    </div>
+                    <!-- เล่มที่ 6 -->
+                    <div class="carousel-item text-center px-4">
+                        <img src="images/b3.webp" class="img-fluid rounded-3 shadow"
+                            style="max-height: 380px; width: auto;" alt="ภาพ b3">
+                    </div>
+                    <!-- เล่มที่ 7 -->
+                    <div class="carousel-item text-center px-4">
+                        <img src="images/b2.webp" class="img-fluid rounded-3 shadow"
+                            style="max-height: 380px; width: auto;" alt="ภาพ b2">
+                    </div>
+                    <!-- เล่มที่ 8 -->
+                    <div class="carousel-item text-center px-4">
+                        <img src="images/b1.webp" class="img-fluid rounded-3 shadow"
+                            style="max-height: 380px; width: auto;" alt="ภาพ b1">
                     </div>
                 </div>
+
+                <!-- ปุ่มเลื่อน Mobile -->
+                <button class="carousel-control-prev" type="button" data-bs-target="#bookCarouselMobile"
+                    data-bs-slide="prev">
+                    <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                    <span class="visually-hidden">Previous</span>
+                </button>
+                <button class="carousel-control-next" type="button" data-bs-target="#bookCarouselMobile"
+                    data-bs-slide="next">
+                    <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                    <span class="visually-hidden">Next</span>
+                </button>
             </div>
 
-            <!-- ปุ่มเลื่อน Desktop -->
-            <button class="carousel-control-prev" type="button" data-bs-target="#bookCarouselDesktop" data-bs-slide="prev">
-                <span class="carousel-control-prev-icon" aria-hidden="true"></span>
-                <span class="visually-hidden">Previous</span>
-            </button>
-            <button class="carousel-control-next" type="button" data-bs-target="#bookCarouselDesktop" data-bs-slide="next">
-                <span class="carousel-control-next-icon" aria-hidden="true"></span>
-                <span class="visually-hidden">Next</span>
-            </button>
         </div>
+    </section>
 
-
-        <!-- =================  2. MOBILE CAROUSEL (สไลด์ละ 1 เล่ม) ================= -->
-        <div id="bookCarouselMobile" class="carousel slide d-md-none" data-bs-ride="carousel" data-bs-interval="3500">
-
-            <!-- จุด Indicators (8 จุด สำหรับ 8 เล่ม) -->
-            <div class="carousel-indicators">
-                <button type="button" data-bs-target="#bookCarouselMobile" data-bs-slide-to="0" class="active" aria-current="true"></button>
-                <button type="button" data-bs-target="#bookCarouselMobile" data-bs-slide-to="1"></button>
-                <button type="button" data-bs-target="#bookCarouselMobile" data-bs-slide-to="2"></button>
-                <button type="button" data-bs-target="#bookCarouselMobile" data-bs-slide-to="3"></button>
-                <button type="button" data-bs-target="#bookCarouselMobile" data-bs-slide-to="4"></button>
-                <button type="button" data-bs-target="#bookCarouselMobile" data-bs-slide-to="5"></button>
-                <button type="button" data-bs-target="#bookCarouselMobile" data-bs-slide-to="6"></button>
-                <button type="button" data-bs-target="#bookCarouselMobile" data-bs-slide-to="7"></button>
-            </div>
-
-            <div class="carousel-inner pb-5">
-                <!-- เล่มที่ 1 -->
-                <div class="carousel-item active text-center px-4">
-                    <img src="images/b8.jpg" class="img-fluid rounded-3 shadow" style="max-height: 380px; width: auto;" alt="ภาพ b8">
-                </div>
-                <!-- เล่มที่ 2 -->
-                <div class="carousel-item text-center px-4">
-                    <img src="images/b7.jpg" class="img-fluid rounded-3 shadow" style="max-height: 380px; width: auto;" alt="ภาพ b7">
-                </div>
-                <!-- เล่มที่ 3 -->
-                <div class="carousel-item text-center px-4">
-                    <img src="images/b6.jpg" class="img-fluid rounded-3 shadow" style="max-height: 380px; width: auto;" alt="ภาพ b6">
-                </div>
-                <!-- เล่มที่ 4 -->
-                <div class="carousel-item text-center px-4">
-                    <img src="images/b5.webp" class="img-fluid rounded-3 shadow" style="max-height: 380px; width: auto;" alt="ภาพ b5">
-                </div>
-                <!-- เล่มที่ 5 -->
-                <div class="carousel-item text-center px-4">
-                    <img src="images/b4.jpg" class="img-fluid rounded-3 shadow" style="max-height: 380px; width: auto;" alt="ภาพ b4">
-                </div>
-                <!-- เล่มที่ 6 -->
-                <div class="carousel-item text-center px-4">
-                    <img src="images/b3.webp" class="img-fluid rounded-3 shadow" style="max-height: 380px; width: auto;" alt="ภาพ b3">
-                </div>
-                <!-- เล่มที่ 7 -->
-                <div class="carousel-item text-center px-4">
-                    <img src="images/b2.webp" class="img-fluid rounded-3 shadow" style="max-height: 380px; width: auto;" alt="ภาพ b2">
-                </div>
-                <!-- เล่มที่ 8 -->
-                <div class="carousel-item text-center px-4">
-                    <img src="images/b1.webp" class="img-fluid rounded-3 shadow" style="max-height: 380px; width: auto;" alt="ภาพ b1">
-                </div>
-            </div>
-
-            <!-- ปุ่มเลื่อน Mobile -->
-            <button class="carousel-control-prev" type="button" data-bs-target="#bookCarouselMobile" data-bs-slide="prev">
-                <span class="carousel-control-prev-icon" aria-hidden="true"></span>
-                <span class="visually-hidden">Previous</span>
-            </button>
-            <button class="carousel-control-next" type="button" data-bs-target="#bookCarouselMobile" data-bs-slide="next">
-                <span class="carousel-control-next-icon" aria-hidden="true"></span>
-                <span class="visually-hidden">Next</span>
-            </button>
-        </div>
 
     </div>
-</section>
-
-
-        </div>
 
     </section>
 
     <!-- =========================
          Footer
     ========================== -->
-<footer class="bg-yellow text-green py-5 footer-section">
-    <div class="container">
+    <footer class="bg-yellow text-green py-5 footer-section">
+        <div class="container">
 
-        <!-- แถวหลัก: ข้อมูล 3 คอลัมน์ -->
-        <div class="row text-center text-md-start g-4 align-items-start">
+            <!-- แถวหลัก: ข้อมูล 3 คอลัมน์ -->
+            <div class="row text-center text-md-start g-4 align-items-start">
 
-            <!-- 1. เกี่ยวกับเรา -->
-            <div class="col-12 col-md-4">
-                <h5 class="fw-bold mb-3 mitr-regular">เกี่ยวกับเรา</h5>
-                <p class="sarabun-regular mb-2 text-green">
-                    <strong>JUSTREAD</strong> <br>พื้นที่แบ่งปันมุมมอง ข้อคิด และแนะนำหนังสือฮีลใจสำหรับวันที่พลังงานชีวิตหมดหลอด
-                </p>
+                <!-- 1. เกี่ยวกับเรา -->
+                <div class="col-12 col-md-4">
+                    <h5 class="fw-bold mb-3 mitr-regular">เกี่ยวกับเรา</h5>
+                    <p class="sarabun-regular mb-2 text-green">
+                        <strong>JUSTREAD</strong> <br>พื้นที่แบ่งปันมุมมอง ข้อคิด
+                        และแนะนำหนังสือฮีลใจสำหรับวันที่พลังงานชีวิตหมดหลอด
+                    </p>
+                </div>
+
+                <!-- 2. ติดตามข่าวสาร -->
+                <div class="col-12 col-md-4 text-center">
+                    <h5 class="fw-bold mb-3 mitr-regular">ติดตามข่าวสารได้ที่</h5>
+                    <div class="d-flex justify-content-center gap-3">
+                        <a href="#" class="text-green sarabun-regular text-decoration-none fw-semibold">
+                            Facebook
+                        </a>
+                        <span>•</span>
+                        <a href="#" class="text-green sarabun-regular text-decoration-none fw-semibold">
+                            Instagram
+                        </a>
+                    </div>
+                </div>
+
+                <!-- 3. ที่มาและลิขสิทธิ์ (อัปเดต นายอินทร์ และ Flaticon แล้ว) -->
+                <div class="col-12 col-md-4 text-center text-md-end">
+                    <h5 class="fw-bold mb-3 mitr-regular">แหล่งที่มา & อ้างอิง</h5>
+                    <ul class="list-unstyled sarabun-regular mb-0 small text-green" style="line-height: 1.8;">
+                        <li><strong>เนื้อหาหลัก:</strong> หนังสือ "เอาไว้พรุ่งนี้ค่อยคิดนะ วันนี้ขอนอนก่อนแล้วกัน" สนพ.
+                            Springbooks</li>
+                        <li><strong>หนังสือที่เกี่ยวข้อง:</strong> ร้านนายอินทร์ (Naiin)</li>
+                        <li><strong>ไอคอน & กราฟิก:</strong> Flaticon</li>
+                    </ul>
+                </div>
+
             </div>
 
-            <!-- 2. ติดตามข่าวสาร -->
-            <div class="col-12 col-md-4 text-center">
-                <h5 class="fw-bold mb-3 mitr-regular">ติดตามข่าวสารได้ที่</h5>
-                <div class="d-flex justify-content-center gap-3">
-                    <a href="#" class="text-green sarabun-regular text-decoration-none fw-semibold">
-                        Facebook
-                    </a>
-                    <span>•</span>
-                    <a href="#" class="text-green sarabun-regular text-decoration-none fw-semibold">
-                        Instagram
-                    </a>
+            <hr class="my-4" style="border-color: rgba(45, 51, 107, 0.2);">
+
+            <!-- แถบล่างสุด: Copyright -->
+            <div class="row align-items-center">
+                <div class="col-12 text-center">
+                    <p class="mb-0 sarabun-regular small text-green opacity-75">
+                        © 2026 JUSTREAD. All Rights Reserved. จัดทำขึ้นเพื่อการศึกษาและการแนะนำหนังสือเท่านั้น
+                    </p>
                 </div>
             </div>
 
-            <!-- 3. ที่มาและลิขสิทธิ์ (อัปเดต นายอินทร์ และ Flaticon แล้ว) -->
-            <div class="col-12 col-md-4 text-center text-md-end">
-                <h5 class="fw-bold mb-3 mitr-regular">แหล่งที่มา & อ้างอิง</h5>
-                <ul class="list-unstyled sarabun-regular mb-0 small text-green" style="line-height: 1.8;">
-                    <li><strong>เนื้อหาหลัก:</strong> หนังสือ "เอาไว้พรุ่งนี้ค่อยคิดนะ วันนี้ขอนอนก่อนแล้วกัน" สนพ. Springbooks</li>
-                    <li><strong>หนังสือที่เกี่ยวข้อง:</strong> ร้านนายอินทร์ (Naiin)</li>
-                    <li><strong>ไอคอน & กราฟิก:</strong> Flaticon</li>
-                </ul>
-            </div>
-
         </div>
-
-        <hr class="my-4" style="border-color: rgba(45, 51, 107, 0.2);">
-
-        <!-- แถบล่างสุด: Copyright -->
-        <div class="row align-items-center">
-            <div class="col-12 text-center">
-                <p class="mb-0 sarabun-regular small text-green opacity-75">
-                    © 2026 JUSTREAD. All Rights Reserved. จัดทำขึ้นเพื่อการศึกษาและการแนะนำหนังสือเท่านั้น
-                </p>
-            </div>
-        </div>
-
-    </div>
-</footer>
+    </footer>
 
     <!-- Bootstrap JS -->
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js">
